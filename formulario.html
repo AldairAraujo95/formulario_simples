@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Tela de Satisfação</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome completo</label>                    
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email">Email</label>                    
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone">Telefone</label>                    
+                </div>
+                <br><br>  
+                <p>Empresa:</p>
+
+                <input type="radio" id="abesp" name="empresa" value="abesp" required>
+                <label for="abesp">Abesp</label>
+
+                <input type="radio" id="multicred" name="empresa" value="multicred" required>
+                <label for="multicred">Multicred</label>
+
+                <input type="radio" id="saudecard" name="empresa" value="saudecard" required>
+                <label for="saudecard">Saude Card</label>
+                <br><br>             
+
+                <p>Atendimento:</p>
+
+                <input type="radio" id="bom" name="atendimento" value="bom" required>
+                <label for="bom">Bom</label>
+
+                <input type="radio" id="regular" name="atendimento" value="regular" required>
+                <label for="regular">Regular</label>
+
+                <input type="radio" id="ruim" name="atendimento" value="ruim" required>
+                <label for="ruim">Ruim</label>
+                <br><br>
+                <br><br>
+
+                <div class="inputBox">
+                    <label for="data_nascimento"><b>Data de Atendimento:</b></label>  
+                    <input type="date" name="data_atendimento" id="data_atendimento" class="inputUser" required>                                      
+                </div>
+                <br><br>
+
+                <br><br>
+                <input type="submit" name="submit" id="submit" value="Salvar" >
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
